@@ -1,0 +1,26 @@
+a {
+  color: #808369;
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 14px; }
+  a:hover {
+    color: white;
+    text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+nav {
+  background-color: #f3f1ec; }
+
+.menu {
+  margin: 30px 0; }
+
+a:first-child {
+  border-left: none; }
+
+a {
+  border-left: 1px solid #d0ceca;
+  padding-left: 25px;
+  padding-right: 25px; }
