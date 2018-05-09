@@ -1,3 +1,7 @@
+h1, h2, h3 {
+  font-family: "PT Serif", serif;
+  font-weight: 700; }
+
 a {
   color: #808369;
   text-transform: uppercase;
@@ -24,3 +28,35 @@ a {
   border-left: 1px solid #d0ceca;
   padding-left: 25px;
   padding-right: 25px; }
+
+span {
+  display: block;
+  font-family: "PT Serif", serif; }
+
+.contacts {
+  text-align: right;
+  color: #808369;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+.number::before {
+  content: "\f095";
+  font-family: FontAwesome;
+  padding-right: 5px; }
+
+.cart::before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  padding-right: 5px; }
+
+.basket {
+  color: #808369;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+.intro {
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.slider img {
+  max-width: 100%; }
