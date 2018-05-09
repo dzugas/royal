@@ -1,4 +1,6 @@
 var gulp = require('gulp'),
+    autoprefixer = require('autoprefixer'),
+    postcss      = require('gulp-postcss'),
     sass = require('gulp-sass');
 
 
@@ -6,6 +8,7 @@ var gulp = require('gulp'),
 gulp.task('sass', function() {
   return gulp.src('src/scss/**/*.scss')
     .pipe(sass())
+    .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
     .pipe(gulp.dest('build/css'))
 });
 
