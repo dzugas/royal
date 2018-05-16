@@ -14,7 +14,9 @@ li {list-style-type: none;}
 
 nav {background-color: #f3f1ec;}
 
-.menu{ margin: 30px 0; }
+img {max-width: 100%;}
+
+.menu{ background-color: #f3f1ec; padding-top: 25px; padding-bottom: 25px; }
 
 .menu a:first-child { border-left: none;}
 
@@ -111,7 +113,7 @@ span {display: block; font-family: $font-main;}
 
 .story-block { position: absolute; padding-bottom: 300px;
 .story-block__description {background-color: white; 
-    .story-block__head {color: $primary-color; font-size: 22px; padding-top: 90px; line-height: 1.5; padding-left: 80px;}
+    .story-block__head {color: $primary-color; font-size: 22px; padding-top: 90px; line-height: 1.5; padding-left: 80px; width: 90%;}
     .story-block__text {font-weight: 400; font-size: 14px; width: 93%; padding-left: 80px;}
     .story-block__date {font-size: 28px; display: inline;}
     }
@@ -122,7 +124,11 @@ span {display: block; font-family: $font-main;}
 
 }
 
+.padding-zero {padding-left: 0px; padding-right: 0px;}
 
+.menu-block {width: 100%;
+    .menu-block__item-photo {border: 14px solid white; }
+}
 
 
 
